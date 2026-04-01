@@ -55,6 +55,14 @@ Making Knowledge Plain is a project that rewrites complex, jargon-heavy ideas in
 
 质量校验表见：[`docs/quality-checklist-v1.md`](docs/quality-checklist-v1.md)
 
+## Benchmark and standards
+
+对标项目、问题定义、处理规则与输出标准见：[`docs/benchmark-and-standards-v1.md`](docs/benchmark-and-standards-v1.md)
+
+## Deep research playbook
+
+深度研究作战手册（持续采集、问题本体、处理策略库、评测协议）见：[`docs/deep-research-playbook-v1.md`](docs/deep-research-playbook-v1.md)
+
 ## Output structure
 
 建议每次分析都使用固定结构：
