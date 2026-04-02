@@ -55,6 +55,12 @@ A case library shows:
 - business / management language
 - policy / public communication
 
+## Current cases
+
+- [`philosophy-001.md`](philosophy-001.md)
+- [`ai-writing-001.md`](ai-writing-001.md)
+- [`business-language-001.md`](business-language-001.md)
+
 ## Naming suggestion
 
 Use filenames like:
