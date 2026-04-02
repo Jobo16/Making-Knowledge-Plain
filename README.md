@@ -4,13 +4,25 @@
 
 **Slogan:** Lower the barrier, not the meaning.
 
-Making Knowledge Plain is a project that rewrites complex, jargon-heavy ideas into clear and accessible language without losing their original meaning, logic, or force.
+Making Knowledge Plain is a project for rewriting complex, jargon-heavy, or artificially opaque ideas into language that is clearer, more enterable, and still faithful to the original meaning, logic, and force.
 
-知识白话是一个将复杂、术语化、模糊化的内容重新表述为清晰、可进入表达的项目。它的目标不是把内容说浅，而是在降低理解门槛的同时，尽量保留原有的意思、逻辑和力度。
+知识白话是一个把复杂、术语化、模糊化、故作高深的表达，重新转化为更清晰、更可进入、同时尽量保持原意、逻辑和力度的项目。
+
+## What this project is trying to do
+
+This project is not trying to make ideas shallow.
+
+It is trying to remove unnecessary barriers between people and knowledge.
+
+In practice, that means:
+- lowering reading resistance without flattening meaning
+- making logic more visible without adding unsupported ideas
+- helping readers reach the real problem, not just the vocabulary around it
+- distinguishing faithful rewrite from explanation and critique
 
 ## Why this project exists
 
-很多知识并不是因为内容本身太难而无法传播，而是因为它被一层不必要的表达门槛包住了。
+很多知识之所以难以传播，不一定是因为内容本身真的不可理解，而是因为它被一层不必要的表达门槛包住了。
 
 这个项目相信：
 
@@ -30,7 +42,7 @@ Making Knowledge Plain is a project that rewrites complex, jargon-heavy ideas in
 3. **从经验出发**：任何表达最后都应该能落回人的处境、行为、关系和感受
 4. **不默认作者比读者高明**：阅读时保留判断权，检查它到底多解释了什么
 
-## What this project does
+## What this project works on
 
 本项目主要处理以下内容：
 
@@ -39,39 +51,34 @@ Making Knowledge Plain is a project that rewrites complex, jargon-heavy ideas in
 - 商业、技术、AI 领域中故意复杂化的表达
 - 任何“看起来很深，但不讲人话”的内容
 
-## Principles
+## Project structure
 
-项目原则见：[`docs/principles.md`](docs/principles.md)
+### Core documents
 
-## Rewriting rules
+- Principles: [`docs/principles.md`](docs/principles.md)
+- Rewriting rules: [`docs/rewriting-rules-v1.md`](docs/rewriting-rules-v1.md)
+- Target language spec: [`docs/target-language-spec-v1.md`](docs/target-language-spec-v1.md)
+- Quality checklist: [`docs/quality-checklist-v1.md`](docs/quality-checklist-v1.md)
+- Benchmark and standards: [`docs/benchmark-and-standards-v1.md`](docs/benchmark-and-standards-v1.md)
+- Deep research playbook: [`docs/deep-research-playbook-v1.md`](docs/deep-research-playbook-v1.md)
 
-转化规则见：[`docs/rewriting-rules-v1.md`](docs/rewriting-rules-v1.md)
+### Working documents
 
-## Target language spec
+- Contributing guide: [`CONTRIBUTING.md`](CONTRIBUTING.md)
+- Roadmap: [`ROADMAP.md`](ROADMAP.md)
+- Review template: [`docs/review-template-v1.md`](docs/review-template-v1.md)
+- Case library: [`docs/case-library/README.md`](docs/case-library/README.md)
+- Case template: [`docs/case-library/case-template-v1.md`](docs/case-library/case-template-v1.md)
 
-目标语言规范见：[`docs/target-language-spec-v1.md`](docs/target-language-spec-v1.md)
-
-## Quality checklist
-
-质量校验表见：[`docs/quality-checklist-v1.md`](docs/quality-checklist-v1.md)
-
-## Benchmark and standards
-
-对标项目、问题定义、处理规则与输出标准见：[`docs/benchmark-and-standards-v1.md`](docs/benchmark-and-standards-v1.md)
-
-## Deep research playbook
-
-深度研究作战手册（持续采集、问题本体、处理策略库、评测协议）见：[`docs/deep-research-playbook-v1.md`](docs/deep-research-playbook-v1.md)
-
-## Output structure
+## Recommended output structure
 
 建议每次分析都使用固定结构：
 
 1. 原文片段
 2. 它在讨论的现实问题
 3. 它观察到的现象
-4. 去术语化复述
-5. 生活化例子
+4. 忠实复述
+5. 辅助解释（如需要）
 6. 真正有价值的部分
 7. 被说重了的部分
 8. 最终版本：清晰、准确、可进入的表达
@@ -85,11 +92,24 @@ Making Knowledge Plain is a project that rewrites complex, jargon-heavy ideas in
 - 低阻力：读者不需要先学会一套圈内语言才能进入内容
 - 高保真：复述之后，原文真正的骨架、逻辑和力度仍然存在
 
-## Status
+## Current status
 
-目前为方法论第一版。下一步将补充：
+目前仓库已经有方法论第一版。
 
-- 示例文本拆解
-- 不同领域的复述模板
-- 忠实复述 / 辅助解释 / 批判性拆解 三种输出模式
-- 更细化的术语处理规范
+下一阶段重点是把它从“原则集合”推进到“可执行系统”：
+
+- 增加案例库
+- 增加模板
+- 建立稳定的 review 流程
+- 区分 rewrite / explanation / critique
+- 逐步形成 benchmark 和研究日志
+
+## A simple decision rule
+
+If unsure what to do next, prefer this order:
+
+1. add examples
+2. improve reviewability
+3. improve repeatability
+4. expand research
+5. expand scope
